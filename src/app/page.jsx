@@ -2,8 +2,11 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="">
       <h1>Hola Aria desde main page</h1>
+      <div id='servicios'>
+        <h2>Productos</h2>
+      </div>
     </main>
   )
 }

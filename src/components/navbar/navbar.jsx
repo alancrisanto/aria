@@ -26,9 +26,9 @@ const links = [
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center py-4 px-8">
+    <nav className="flex justify-between items-center py-2 px-8 max-h-28">
       <Link href="#" className={styles.logo}>
-        <Image src="/logo1.svg" width={200} height={100} />
+        <Image src="/logo5.svg" width={150} height={100} />
       </Link>
       <div className="flex gap-8">
         {links.map((link)=> (
