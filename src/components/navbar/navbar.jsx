@@ -24,7 +24,7 @@ const links = [
 
 const Navbar = () => {
 	return (
-		<nav className="flex justify-between items-center py-2 px-8 max-h-28">
+		<nav className={`${styles.navbar} flex justify-between items-center py-2 px-8 max-h-28`}>
 			<Link href="#" className="">
 				<Image src="/logo5.svg" width={150} height={100} alt="logo aria studio" />
 			</Link>
